@@ -1,6 +1,6 @@
 # QuartzFilters
 
-This is a collection of Quartz ColorSync Filters for MacOS. While filters work well at manipulating, converting or altering images and PDF documents, the OS-bundled app to create them, ColorSync Utility, is profoundly broken and can corrupt the settings of installed filters.
+This is a collection of Quartz ColorSync Filters for MacOS. While filters work well at manipulating, converting or altering images and PDF documents, the OS-bundled app to create them, ColorSync Utility, has been profoundly broken (up to Mojave 10.14) and can corrupt the settings of installed filters.
 
 Put these files in {user}/Library/Filters. Another location is /Library/Filters. They will then be available to apps like Preview, and you can use them in conjunction with the scripts and workflows in PDFSuite to produce other ways of applying them to PDFs.
 
@@ -13,8 +13,8 @@ The Better PDFX-3 filter offers improved transparency and colour management, usi
 ### Better Reduce File Size ###
 These filters will compress PDF files, if possible, without too much lossage. 
 
-### Lab Transform Filters ###
-These filters use the Lab Color Profiles bundled with MacOS to perform various colour transformations. 
+### Create your own Filters ###
+You can create you own filters using any ICC profiles you may have. (Adobe applications include profiles for various colour axes -- Green-Red, Gold-Blue, Turquoise-Sepia, etc). Set an Intermediate Transform with the Profile paramater, then choose your profile.
 
 ## Quartz Filter Documentation
 Apple's documentation on working with Quartz Filters is minimal. Here are a few notes that I've discovered:
