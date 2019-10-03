@@ -13,6 +13,9 @@ The Better PDFX-3 filter offers improved transparency and colour management, usi
 ### Better Reduce File Size ###
 These filters will compress PDF files, if possible, without too much lossage. 
 
+### Lab Transform Filters ###
+These filters use the Lab Color Profiles bundled with MacOS to perform various colour transformations. 
+
 ## Quartz Filter Documentation
 Apple's documentation on working with Quartz Filters is minimal. Here are a few notes that I've discovered:
 
