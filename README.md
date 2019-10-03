@@ -11,7 +11,7 @@ This filter is designed to modify PDFs so that they are compatible with the PDF/
 The Better PDFX-3 filter offers improved transparency and colour management, using parameters similar to those in Adobe Distiller's PDF/X-3:2002 joboptions. 
 
 ### Better Reduce File Size ###
-These filters will compress PDF files, if possible, without too much lossage. 
+These filters will compress PDF files, if possible, without too much lossage. Some PDFs may contain compression algorithms, so may not be capable of much size reduction without loss.
 
 ### Create your own Filters ###
 You can create you own filters using any ICC profiles you may have. (Adobe applications include profiles for various colour axes -- Green-Red, Gold-Blue, Turquoise-Sepia, etc). Set an Intermediate Transform with the Profile paramater, then choose your profile.
